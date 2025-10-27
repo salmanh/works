@@ -601,6 +601,10 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero img{
+    width: 200%;
+    transform: scale(1.4) translate(-43%, -8%) !important;
+  }
   .hero h2 {
     font-size: 32px;
   }
